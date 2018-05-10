@@ -6,8 +6,9 @@ public class App {
         try {
             SmartsheetScript.buildSmartsheet();
         } catch (SmartsheetException e) {
-            e.printStackTrace();
+            SMTPService.appErrorEmail("trevor.bye@darigold.com", e.getMessage());
         }
+
 
     }
 }
