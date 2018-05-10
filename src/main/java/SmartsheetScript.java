@@ -16,7 +16,7 @@ public class SmartsheetScript {
         List<IntakeEntity> intakeList = new ArrayList<>();
 
         //set at the personal account level. Go to Profile>Personal Settings/API Access to generate a token. Token credentials match account credentials
-        String accessToken = "8u3h7u10lxlvz0q3pfmvk6jp5i";
+        String accessToken = "removed_for_security,_must_generate_new_token_in_account_settings";
 
         //connect to Smartsheet
         Smartsheet smartsheet = new SmartsheetBuilder().setAccessToken(accessToken).build();
